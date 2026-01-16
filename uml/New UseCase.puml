@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor "Student" as fc
+rectangle  Use-Case  {
+  usecase "Register Course" as UC1
+  usecase "Check Prerequisite" as UC2
+
+}
+fc --> UC1
+fc --> UC2
+
+@enduml
